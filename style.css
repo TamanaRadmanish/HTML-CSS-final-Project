@@ -16,18 +16,14 @@ h1{
 span{
     color:#6415ff
 }
-
-
+.container{
+    padding: 96px 0;
+}
+ 
 .row{
     width: 100%;
     max-width: 1280px;
     margin: 0 auto;
-    margin-top: 24px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
-
 }
 /* Navigation*/
 nav{
@@ -87,10 +83,13 @@ nav{
 
 /* Header*/
 
-.container{
-    padding: 96px 0;
+header.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
- 
+
+
 .header__description{
     width: 41.6667%;
     color:#243e63
@@ -275,17 +274,24 @@ flex-direction: column;
     align-items: flex-start;
     margin-top: 32px;
     justify-content: space-between;
-    width: 50%;
+    width: 100%;
     
 
 }
 
-.steps-description{
+/*.steps-description{
 
-    padding-left: 64px;
+    padding-left: 36px;
     padding : 30px 0; 
     margin-left: 24px;
-    width: 50%;
+    width: 100%;
+    max-width: 40rem;
+}*/
+
+.steps__description {
+    width: 100%;
+    max-width: 40rem;
+    padding-left: 32px;
 }
 
 .step__number{
@@ -313,3 +319,17 @@ margin-bottom: 20px;
 
 }
  
+/* Reasonable & Flexible Plans.*/
+
+#pricing{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.plans{
+    display: flex;
+    di
+
+
+}

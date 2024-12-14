@@ -83,7 +83,7 @@ nav{
 
 /* Header*/
 
-header.row{
+.header__row{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -144,7 +144,7 @@ p{
 
  .header__customers
  
- {
+ { width: 100%;
     padding-right: 64px;
     margin-top: 16px;
  }
@@ -223,6 +223,9 @@ padding: 32px 20px;
      margin-right: 20px;
 }
 /* quality*/
+.quality__row{
+    display:flex
+}
 
 .quality__description{
     max-width:576px; 
@@ -329,7 +332,5 @@ margin-bottom: 20px;
 
 .plans{
     display: flex;
-    di
-
-
+    justify-content: space-around;
 }

@@ -25,6 +25,7 @@ span{
 }
 
 .nav__row{
+    padding: 0px 12px;
     width: 100%;
     max-width: 1280px;
     margin: 0 auto;
@@ -878,6 +879,104 @@ a {
     padding: 12px;
 }
 /*SMALL PHONES, TABLETS, LARGE SMARTHPHONES */
+
+@media(max-width :1000px)
+
+{
+    .steps__list{
+        width: unset;
+    }
+
+    .steps__description{
+        width: unset;
+    }
+
+    .feature{
+        
+        max-width: fit-content;
+
+    }
+
+    .feature__row{
+        justify-content: center;
+
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .feature__img--wrapper{
+        margin-right: 0;
+    }
+
+    .feature__title{
+        text-align: center;
+        
+    }
+    
+
+    .quality__description{
+        align-items: center;
+    }
+
+    .steps__description{
+
+        padding: 0;
+    }
+
+    .value{
+
+        margin-right :0px;
+        
+    }
+
+    .value__title{
+        justify-content: center;
+        text-align: center;
+    }
+
+    .testimonials__description{
+        padding:0px;;
+    }
+
+    .start__row{
+        padding: 12px;
+        flex-direction: column;   
+    }
+
+    .start__button{
+        display: flex
+;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+    gap: 8px;
+    
+    }
+
+    .get__started, .contact__us{
+        padding: 10px 20px;
+
+        font-size: 12px;
+    }
+
+    .footer__columns{
+        gap:8px;
+    }
+
+    .footer__bottom{
+
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+
+    }
+
+
+}
+
+
+
 @media(max-width :728px){
 
     .hamberger{
@@ -890,6 +989,8 @@ a {
 
     .row{
         flex-direction: column;
+       
+
     }
 
     .nav__links{
@@ -897,11 +998,7 @@ a {
         display:none;
     }
 
-    .section__tag{
-
-       
-        text-align: center;
-    }
+    
 
     .section__title{
         
@@ -911,6 +1008,8 @@ a {
        
         text-align: center;
     }
+
+    
 
     .features{
         flex-direction: column;

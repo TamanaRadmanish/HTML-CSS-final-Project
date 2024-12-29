@@ -974,8 +974,12 @@ a {
         margin-left: 24px;
 
     }
+    .quality__description, .quality__img--Wrapper, .steps__img--wrapper, .step-description
 
+{
+width: 100%;
 
+}
 }
 
 
